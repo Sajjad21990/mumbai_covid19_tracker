@@ -3,8 +3,6 @@ import {
   MDBCard,
   MDBCardBody,
   MDBCardHeader,
-  MDBInput,
-  MDBBtn,
   MDBTable,
   MDBTableBody,
   MDBTableHead,
@@ -15,27 +13,47 @@ const TablePage = (props) => {
   const data_panel = {
     columns: [
       {
-        label: "Last Name",
+        label: (
+          <MDBCardHeader className="view view-cascade gradient-card-header spring-warmth-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+            <span className={styles.columnHeading}>Area-Name</span>
+          </MDBCardHeader>
+        ),
         field: "last",
         sort: "asc",
       },
       {
-        label: "Username",
+        label: (
+          <MDBCardHeader className="view view-cascade gradient-card-header young-passion-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+            <span className={styles.columnHeading}>Total-Case</span>
+          </MDBCardHeader>
+        ),
         field: "username",
         sort: "asc",
       },
       {
-        label: "Username",
+        label: (
+          <MDBCardHeader className="view view-cascade  gradient-card-header blue-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+            <span className={styles.columnHeading}>Active-Case</span>
+          </MDBCardHeader>
+        ),
         field: "username2",
         sort: "asc",
       },
       {
-        label: "Username",
+        label: (
+          <MDBCardHeader className="view view-cascade gradient-card-header dusty-grass-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+            <span className={styles.columnHeading}>Recovered</span>
+          </MDBCardHeader>
+        ),
         field: "username3",
         sort: "asc",
       },
       {
-        label: "Username",
+        label: (
+          <MDBCardHeader className="view view-cascade gradient-card-header heavy-rain-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+            <span className={styles.columnHeading}>Deaths</span>
+          </MDBCardHeader>
+        ),
         field: "username4",
         sort: "asc",
       },
@@ -81,7 +99,7 @@ const TablePage = (props) => {
 
   return (
     <MDBCard className="ml-3 mr-3">
-      <MDBCardHeader className="view view-cascade gradient-card-header blue-gradient d-flex justify-content-between align-items-center py-2 mx-4 mb-3">
+      <MDBCardHeader className="view view-cascade gradient-card-header purple-gradient d-flex justify-content-center align-items-center py-2 mx-4 mb-3">
         {/* <div>
           <MDBBtn outline rounded size="sm" color="white" className="px-2">
             <i className="fa fa-th-large mt-0"></i>
@@ -90,9 +108,9 @@ const TablePage = (props) => {
             <i className="fa fa-columns mt-0"></i>
           </MDBBtn>
         </div> */}
-        <div></div>
+
         <span className={styles.tableHeading}>Mumbai Area-Wise Data</span>
-        <div></div>
+
         {/* <div>
           <MDBBtn outline rounded size="sm" color="white" className="px-2">
             <i className="fas fa-pencil-alt mt-0"></i>
