@@ -1,0 +1,14 @@
+.heading {
+  margin: 10%;
+  font-weight: 700 !important;
+}
+
+.todaysCount {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-bottom: 10% !important;
+}
+.totalCount {
+  font-size: 22px !important;
+  letter-spacing: 2px !important;
+}
