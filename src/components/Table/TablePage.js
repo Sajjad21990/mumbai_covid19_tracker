@@ -35,7 +35,7 @@ const TablePage = (props) => {
       {
         label: (
           <MDBCardHeader className="view view-cascade gradient-card-header dusty-grass-gradient  justify-content-center align-items-center">
-            <span className={styles.columnHeading}>Recovered</span>
+            <span className={styles.columnHeading}>Total-Recovered</span>
           </MDBCardHeader>
         ),
         field: "username3",
@@ -44,7 +44,7 @@ const TablePage = (props) => {
       {
         label: (
           <MDBCardHeader className="view view-cascade gradient-card-header heavy-rain-gradient  justify-content-center align-items-center">
-            <span className={styles.columnHeading}>Deaths</span>
+            <span className={styles.columnHeading}>Total-Deaths</span>
           </MDBCardHeader>
         ),
         field: "username4",
