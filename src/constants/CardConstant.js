@@ -16,7 +16,7 @@ const CardConstant = (props) => {
   } = props;
 
   return (
-    <div class="cardContainer shadow p-3 mb-5 bg-white rounded">
+    <div className="cardContainer shadow p-3 mb-5 bg-white rounded">
       <Typography
         className={styles.heading}
         component={"span"}

@@ -1,20 +1,13 @@
 import React from "react";
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCardHeader,
-  MDBTable,
-  MDBTableBody,
-  MDBTableHead,
-} from "mdbreact";
+import { MDBCard, MDBCardBody, MDBCardHeader, MDBDataTable } from "mdbreact";
 import styles from "./TablePage.module.css";
 
 const TablePage = (props) => {
-  const data_panel = {
+  const data = {
     columns: [
       {
         label: (
-          <MDBCardHeader className="view view-cascade gradient-card-header spring-warmth-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+          <MDBCardHeader className="view view-cascade gradient-card-header spring-warmth-gradient justify-content-center align-items-center ">
             <span className={styles.columnHeading}>Area-Name</span>
           </MDBCardHeader>
         ),
@@ -23,7 +16,7 @@ const TablePage = (props) => {
       },
       {
         label: (
-          <MDBCardHeader className="view view-cascade gradient-card-header young-passion-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+          <MDBCardHeader className="view view-cascade gradient-card-header young-passion-gradient  justify-content-center align-items-center">
             <span className={styles.columnHeading}>Total-Case</span>
           </MDBCardHeader>
         ),
@@ -32,7 +25,7 @@ const TablePage = (props) => {
       },
       {
         label: (
-          <MDBCardHeader className="view view-cascade  gradient-card-header blue-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+          <MDBCardHeader className="view view-cascade  gradient-card-header blue-gradient  justify-content-center align-items-center">
             <span className={styles.columnHeading}>Active-Case</span>
           </MDBCardHeader>
         ),
@@ -41,7 +34,7 @@ const TablePage = (props) => {
       },
       {
         label: (
-          <MDBCardHeader className="view view-cascade gradient-card-header dusty-grass-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+          <MDBCardHeader className="view view-cascade gradient-card-header dusty-grass-gradient  justify-content-center align-items-center">
             <span className={styles.columnHeading}>Recovered</span>
           </MDBCardHeader>
         ),
@@ -50,7 +43,7 @@ const TablePage = (props) => {
       },
       {
         label: (
-          <MDBCardHeader className="view view-cascade gradient-card-header heavy-rain-gradient d-flex justify-content-center align-items-center py-2 mx-3 mb-3">
+          <MDBCardHeader className="view view-cascade gradient-card-header heavy-rain-gradient  justify-content-center align-items-center">
             <span className={styles.columnHeading}>Deaths</span>
           </MDBCardHeader>
         ),
@@ -99,35 +92,23 @@ const TablePage = (props) => {
 
   return (
     <MDBCard className="ml-3 mr-3">
-      <MDBCardHeader className="view view-cascade gradient-card-header purple-gradient d-flex justify-content-center align-items-center py-2 mx-4 mb-3">
-        {/* <div>
-          <MDBBtn outline rounded size="sm" color="white" className="px-2">
-            <i className="fa fa-th-large mt-0"></i>
-          </MDBBtn>
-          <MDBBtn outline rounded size="sm" color="white" className="px-2">
-            <i className="fa fa-columns mt-0"></i>
-          </MDBBtn>
-        </div> */}
-
+      <MDBCardHeader className="view view-cascade gradient-card-header purple-gradient  justify-content-center align-items-center py-2 mx-4 mb-3">
         <span className={styles.tableHeading}>Mumbai Area-Wise Data</span>
-
-        {/* <div>
-          <MDBBtn outline rounded size="sm" color="white" className="px-2">
-            <i className="fas fa-pencil-alt mt-0"></i>
-          </MDBBtn>
-          <MDBBtn outline rounded size="sm" color="white" className="px-2">
-            <i className="fas fa-times mt-0"></i>
-          </MDBBtn>
-          <MDBBtn outline rounded size="sm" color="white" className="px-2">
-            <i className="fa fa-info-circle mt-0"></i>
-          </MDBBtn>
-        </div> */}
       </MDBCardHeader>
       <MDBCardBody cascade>
-        <MDBTable btn fixed striped searching={true} bordered>
+        {/* <MDBTable btn fixed striped searching={true} bordered>
           <MDBTableHead columns={data_panel.columns} />
           <MDBTableBody rows={data_panel.rows} />
-        </MDBTable>
+        </MDBTable> */}
+        <MDBDataTable
+          striped
+          bordered
+          hover
+          data={data}
+          exportToCSV
+          responsiveMd
+          responsiveSm
+        />
       </MDBCardBody>
     </MDBCard>
   );

@@ -5,9 +5,9 @@ import CardConstant from "../../constants/CardConstant";
 
 const Cards = () => {
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+    <div className="container">
+      <div className="row">
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <CardConstant
             categoryHeading="confirmedheading"
             categoryTitle="CONFIRMED"
@@ -18,7 +18,7 @@ const Cards = () => {
             categoryUnderline="confirmedUnderline"
           />
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <CardConstant
             categoryHeading="activeheading"
             categoryTitle="ACTIVE"
@@ -29,7 +29,7 @@ const Cards = () => {
             categoryUnderline="activeUnderline"
           />
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <CardConstant
             categoryHeading="recoveredheading"
             categoryTitle="RECOVERED"
@@ -40,7 +40,7 @@ const Cards = () => {
             categoryUnderline="recoveredUnderline"
           />
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <CardConstant
             categoryHeading="deathsheading"
             categoryTitle="DECEASED"
