@@ -13,10 +13,13 @@ const CardConstant = (props) => {
     categoryTotalCount,
     totalCount,
     categoryUnderline,
+    borderColor,
   } = props;
 
   return (
-    <div className="cardContainer shadow p-3 mb-5 bg-white rounded">
+    <div
+      className={`cardContainer shadow p-3 mb-5 bg-white rounded border border-${borderColor}`}
+    >
       <Typography
         className={styles.heading}
         component={"span"}

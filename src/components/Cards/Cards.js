@@ -7,7 +7,7 @@ const Cards = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
           <CardConstant
             categoryHeading="confirmedheading"
             categoryTitle="CONFIRMED"
@@ -16,6 +16,7 @@ const Cards = () => {
             categoryTotalCount="confirmedTotalCount"
             totalCount={2122}
             categoryUnderline="confirmedUnderline"
+            borderColor="danger"
           />
         </div>
         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
@@ -27,6 +28,7 @@ const Cards = () => {
             categoryTotalCount="activeTotalCount"
             totalCount={21}
             categoryUnderline="activeUnderline"
+            borderColor="primary"
           />
         </div>
         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
@@ -38,6 +40,7 @@ const Cards = () => {
             categoryTotalCount="recoveredTotalCount"
             totalCount={332}
             categoryUnderline="recoveredUnderline"
+            borderColor="success"
           />
         </div>
         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
@@ -49,6 +52,7 @@ const Cards = () => {
             categoryTotalCount="deathsTotalCount"
             totalCount={43}
             categoryUnderline="deathsUnderline"
+            borderColor="dark"
           />
         </div>
       </div>
