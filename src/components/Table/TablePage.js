@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBCard, MDBCardBody, MDBCardHeader, MDBDataTable } from "mdbreact";
 import styles from "./TablePage.module.css";
-import rowData from "../../constants/rows";
+import rowData from "../../constants/rowsData";
 
 const TablePage = (props) => {
   const data = {
