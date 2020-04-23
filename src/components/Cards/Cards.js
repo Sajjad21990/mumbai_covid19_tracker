@@ -12,9 +12,9 @@ const Cards = () => {
             categoryHeading="confirmedheading"
             categoryTitle="CONFIRMED"
             categoryTodaysCount="confirmedTodaysCount"
-            todaysCount={13}
+            todaysCount={15}
             categoryTotalCount="confirmedTotalCount"
-            totalCount={13}
+            totalCount={15}
             categoryUnderline="confirmedUnderline"
             borderColor="danger"
           />
@@ -26,7 +26,7 @@ const Cards = () => {
             categoryTodaysCount="activeTodaysCount"
             todaysCount={0}
             categoryTotalCount="activeTotalCount"
-            totalCount={4}
+            totalCount={6}
             categoryUnderline="activeUnderline"
             borderColor="primary"
           />

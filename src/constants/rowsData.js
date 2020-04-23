@@ -1,19 +1,38 @@
-import React from "react";
-
 const rowData = [
   {
-    area_name: <span className="font-weight-bold">Mira-Bhayandar</span>,
+    area_name: "Mira-Bhayandar",
     total_cases: "9",
     total_active: "4",
     total_recovered: "4",
     total_deaths: "1",
   },
   {
-    area_name: <span className="font-weight-bold">Dongri</span>,
+    area_name: "Dongri",
     total_cases: "4",
     total_active: "0",
     total_recovered: "3",
     total_deaths: "1",
+  },
+  {
+    area_name: "Bandra",
+    total_cases: "1",
+    total_active: "1",
+    total_recovered: "0",
+    total_deaths: "0",
+  },
+  {
+    area_name: "Govandi",
+    total_cases: "1",
+    total_active: "1",
+    total_recovered: "0",
+    total_deaths: "0",
+  },
+  {
+    area_name: "Pune",
+    total_cases: "0",
+    total_active: "0",
+    total_recovered: "0",
+    total_deaths: "",
   },
 ];
 
