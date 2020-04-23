@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 414px) {
   #header {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -68,6 +68,7 @@
 }
 
 #confirmedTodaysCount {
+  margin-top: 4% !important;
   color: #ff7d99;
 }
 
@@ -84,6 +85,7 @@
   color: #7fcb90;
 }
 #deathsTodaysCount {
+  margin-top: 4% !important;
   color: #b2b7bb;
 }
 
@@ -91,15 +93,15 @@
   color: #ff083b;
 }
 #activeTotalCount {
-  margin-top: 26% !important;
+  margin-top: 18% !important;
   color: #1485ff;
 }
 #recoveredTotalCount {
-  margin-top: 26% !important;
+  margin-top: 18% !important;
   color: #2ba847;
 }
 #testTotalCount {
-  margin-top: 26% !important;
+  margin-top: 18% !important;
   color: #fc9803;
   border-bottom: 1px groove #f7880a;
 }

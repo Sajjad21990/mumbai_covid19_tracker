@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBCard, MDBCardBody, MDBCardHeader, MDBDataTable } from "mdbreact";
 import styles from "./TablePage.module.css";
+import rowData from "../../constants/rows";
 
 const TablePage = (props) => {
   const data = {
@@ -11,7 +12,7 @@ const TablePage = (props) => {
             <span className={styles.columnHeading}>Area-Name</span>
           </MDBCardHeader>
         ),
-        field: "last",
+        field: "area_name",
         sort: "asc",
       },
       {
@@ -20,7 +21,7 @@ const TablePage = (props) => {
             <span className={styles.columnHeading}>Total-Cases</span>
           </MDBCardHeader>
         ),
-        field: "username",
+        field: "total_cases",
         sort: "asc",
       },
       {
@@ -29,7 +30,7 @@ const TablePage = (props) => {
             <span className={styles.columnHeading}>Active-Cases</span>
           </MDBCardHeader>
         ),
-        field: "username2",
+        field: "total_active",
         sort: "asc",
       },
       {
@@ -38,7 +39,7 @@ const TablePage = (props) => {
             <span className={styles.columnHeading}>Total-Recovered</span>
           </MDBCardHeader>
         ),
-        field: "username3",
+        field: "total_recovered",
         sort: "asc",
       },
       {
@@ -47,47 +48,20 @@ const TablePage = (props) => {
             <span className={styles.columnHeading}>Total-Deaths</span>
           </MDBCardHeader>
         ),
-        field: "username4",
+        field: "total_deaths",
         sort: "asc",
       },
     ],
-    rows: [
-      {
-        last: "Otto",
-        username: "@mdo",
-        username2: "Mark",
-        username3: "Otto",
-        username4: "@mdo",
-      },
-      {
-        last: "Thornton",
-        username: "@fat",
-        username2: "Jacob",
-        username3: "Thornton",
-        username4: "@fat",
-      },
-      {
-        last: "the Bird",
-        username: "@twitter",
-        username2: "Larry",
-        username3: "the Bird",
-        username4: "@twitter",
-      },
-      {
-        last: "Topolski",
-        username: "@P_Topolski",
-        username2: "Paul",
-        username3: "Topolski",
-        username4: "@P_Topolski",
-      },
-      {
-        last: "the Bird",
-        username: "@twitter",
-        username2: "Larry",
-        username3: "the Bird",
-        username4: "@twitter",
-      },
-    ],
+    // rows: [
+    //   {
+    //     area_name: <span className="font-weight-bold">Mira-Bhaynder</span>,
+    //     total_cases: "9",
+    //     total_active: "4",
+    //     total_recovered: "4",
+    //     total_deaths: "1",
+    //   },
+    // ],
+    rows: rowData,
   };
 
   return (
@@ -111,6 +85,7 @@ const TablePage = (props) => {
           noBottomColumns
         />
       </MDBCardBody>
+      {/* {console.log(rowData[0].total_cases)} */}
     </MDBCard>
   );
 };
