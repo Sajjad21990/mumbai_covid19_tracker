@@ -93,15 +93,15 @@
   color: #ff083b;
 }
 #activeTotalCount {
-  margin-top: 18% !important;
+  margin-top: 25% !important;
   color: #1485ff;
 }
 #recoveredTotalCount {
-  margin-top: 18% !important;
+  margin-top: 25% !important;
   color: #2ba847;
 }
 #testTotalCount {
-  margin-top: 18% !important;
+  margin-top: 25% !important;
   color: #fc9803;
   border-bottom: 1px groove #f7880a;
 }
