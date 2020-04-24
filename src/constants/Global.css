@@ -11,6 +11,19 @@
   -webkit-animation: hue 10s infinite linear;
   margin: 5rem 0 2rem 0;
 }
+#header_2 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+  margin: 5rem 0 2rem 0;
+}
 @keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
@@ -114,6 +127,9 @@
   #header {
     font-size: 5rem;
   }
+  #header_2 {
+    font-size: 4rem;
+  }
   .helplineImage {
     width: 75%;
     height: 80%;
@@ -122,6 +138,9 @@
 @media (max-width: 768px) {
   #header {
     font-size: 3.5rem;
+  }
+  #header_2 {
+    font-size: 3rem;
   }
   .helplineImage {
     width: 75%;
@@ -132,6 +151,9 @@
 @media screen and (max-width: 414px) {
   #header {
     font-size: 2.5rem;
+  }
+  #header_2 {
+    font-size: 2rem;
   }
   .helplineImage {
     width: 85%;

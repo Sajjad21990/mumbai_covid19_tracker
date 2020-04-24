@@ -32,7 +32,14 @@ const rowData = [
     total_cases: "0",
     total_active: "0",
     total_recovered: "0",
-    total_deaths: "",
+    total_deaths: "0",
+  },
+  {
+    area_name: "Sangli",
+    total_cases: "0",
+    total_active: "0",
+    total_recovered: "0",
+    total_deaths: "0",
   },
 ];
 
