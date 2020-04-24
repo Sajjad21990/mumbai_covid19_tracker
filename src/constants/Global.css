@@ -43,26 +43,27 @@
 }
 #confirmedheading {
   color: #ff9fb3;
-}
-
-#confirmedheading {
-  color: #ff9fb3;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 #activeheading {
   color: #6cb3ff;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 #recoveredheading {
   color: #85ce95;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-#testheading {
-  color: #fcb449;
-}
 #deathsheading {
   color: #adb2b7;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-
+/* 
 #confirmedTodaysCount {
   margin-top: 4% !important;
   color: #ff7d99;
@@ -83,25 +84,23 @@
 #deathsTodaysCount {
   margin-top: 4% !important;
   color: #b2b7bb;
-}
+} */
 
 #confirmedTotalCount {
+  margin-top: 20% !important;
   color: #ff083b;
 }
 #activeTotalCount {
-  margin-top: 25% !important;
+  margin-top: 20% !important;
   color: #1485ff;
 }
 #recoveredTotalCount {
-  margin-top: 25% !important;
+  margin-top: 20% !important;
   color: #2ba847;
 }
-#testTotalCount {
-  margin-top: 25% !important;
-  color: #fc9803;
-  border-bottom: 1px groove #f7880a;
-}
+
 #deathsTotalCount {
+  margin-top: 20% !important;
   color: #767e85;
 }
 
@@ -116,11 +115,6 @@
 }
 #deathsUnderline {
   border-bottom: 1px groove rgba(0, 0, 0, 0.5);
-}
-
-.helplineImage {
-  width: 50%;
-  height: 80%;
 }
 
 @media (max-width: 1024px) {

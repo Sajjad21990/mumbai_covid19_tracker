@@ -12,7 +12,7 @@ const Main = () => {
     <div>
       <div className="row">
         <div className="col-lg-12">
-          <h1 id="header">Mumbai Shia Covid19 Tracker</h1>
+          <h1 id="header">Shia Covid19 Tracker</h1>
         </div>
       </div>
       <div>
@@ -23,9 +23,6 @@ const Main = () => {
       </div>
       <div>
         <div>
-          <h1 id="header_2">
-            Rulings of Grand Ayt.Sistani Regarding Covid19 Burial
-          </h1>
           <LightboxPage />
         </div>
         <div className="row mt-5 ml-2 p-1">

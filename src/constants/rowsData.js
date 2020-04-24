@@ -21,6 +21,13 @@ const rowData = [
     total_deaths: "0",
   },
   {
+    area_name: "Andheri",
+    total_cases: "1",
+    total_active: "1",
+    total_recovered: "0",
+    total_deaths: "0",
+  },
+  {
     area_name: "Govandi",
     total_cases: "1",
     total_active: "1",

@@ -2,13 +2,16 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
+import "../../constants/Global.css";
+
 import styles from "./LightBoxPage.module.css";
 import img0 from "../../images/0.jpeg";
-import img1 from "../../images/1.jpg";
-import img2 from "../../images/2.jpeg";
+import img1 from "../../images/1.jpeg";
+import img2 from "../../images/2.jpg";
 import img3 from "../../images/3.jpeg";
 import img4 from "../../images/4.jpeg";
 import img5 from "../../images/5.jpeg";
+import img6 from "../../images/6.jpeg";
 
 const LightBoxPage = () => {
   const [toggler0, setToggler0] = useState(false);
@@ -17,12 +20,14 @@ const LightBoxPage = () => {
   const [toggler3, setToggler3] = useState(false);
   const [toggler4, setToggler4] = useState(false);
   const [toggler5, setToggler5] = useState(false);
+  const [toggler6, setToggler6] = useState(false);
 
   return (
     <>
-      <div className="container-fluid">
-        <div className="row gallerys">
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-5 ">
+      <div className="container">
+        <h1 id="header_2">Helpline Numbers</h1>
+        <div className="row">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5 ">
             <img
               src={img0}
               alt="photos"
@@ -30,7 +35,7 @@ const LightBoxPage = () => {
               onClick={() => setToggler0(!toggler0)}
             />
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-5">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5 ">
             <img
               src={img1}
               alt="photos"
@@ -38,6 +43,13 @@ const LightBoxPage = () => {
               onClick={() => setToggler1(!toggler1)}
             />
           </div>
+        </div>
+      </div>
+      <div className="container-fluid">
+        <h1 id="header_2">
+          Rulings of Grand Ayt.Sistani Regarding Covid19 Burial
+        </h1>
+        <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-5">
             <img
               src={img2}
@@ -70,32 +82,44 @@ const LightBoxPage = () => {
               onClick={() => setToggler5(!toggler5)}
             />
           </div>
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-5">
+            <img
+              src={img6}
+              alt="photos"
+              className={styles.image_gallery}
+              onClick={() => setToggler6(!toggler6)}
+            />
+          </div>
         </div>
       </div>
 
       <FsLightbox
         toggler={toggler0}
-        sources={[img0, img1, img2, img3, img4, img5]}
+        sources={[img0, img1, img2, img3, img4, img5, img6]}
       />
       <FsLightbox
         toggler={toggler1}
-        sources={[img1, img2, img3, img4, img5, img0]}
+        sources={[img1, img2, img3, img4, img5, img6, img0]}
       />
       <FsLightbox
         toggler={toggler2}
-        sources={[img2, img3, img4, img5, img0, img1]}
+        sources={[img2, img3, img4, img5, img6, img0, img0]}
       />
       <FsLightbox
         toggler={toggler3}
-        sources={[img3, img4, img5, img0, img1, img2]}
+        sources={[img3, img4, img5, img6, img0, img1, img2]}
       />
       <FsLightbox
         toggler={toggler4}
-        sources={[img4, img5, img0, img1, img2, img3]}
+        sources={[img4, img5, img6, img0, img1, img2, img3]}
       />
       <FsLightbox
         toggler={toggler5}
-        sources={[img5, img0, img1, img2, img3, img4]}
+        sources={[img5, img6, img0, img1, img2, img3, img4]}
+      />
+      <FsLightbox
+        toggler={toggler6}
+        sources={[img6, img0, img1, img2, img3, img4, img5]}
       />
     </>
   );

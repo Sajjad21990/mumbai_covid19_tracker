@@ -8,8 +8,7 @@ const CardConstant = (props) => {
   const {
     categoryHeading,
     categoryTitle,
-    categoryTodaysCount,
-    todaysCount,
+
     categoryTotalCount,
     totalCount,
     categoryUnderline,
@@ -27,10 +26,10 @@ const CardConstant = (props) => {
       >
         {categoryTitle}
       </Typography>
-      <Typography className={styles.todaysCount} id={categoryTodaysCount}>
+      {/* <Typography className={styles.todaysCount} id={categoryTodaysCount}>
         [+
         <CountUp start={0} end={todaysCount} duration={2} separator="," />]
-      </Typography>
+      </Typography> */}
       <Typography className={styles.totalCount} id={categoryTotalCount}>
         <span
           style={{ fontSize: "22px", fontWeight: "bold" }}

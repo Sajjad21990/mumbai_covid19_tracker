@@ -12,7 +12,7 @@ const Cards = () => {
             categoryHeading="confirmedheading"
             categoryTitle="CONFIRMED"
             categoryTodaysCount="confirmedTodaysCount"
-            todaysCount={15}
+            // todaysCount={15}
             categoryTotalCount="confirmedTotalCount"
             totalCount={15}
             categoryUnderline="confirmedUnderline"
@@ -24,7 +24,7 @@ const Cards = () => {
             categoryHeading="activeheading"
             categoryTitle="ACTIVE"
             categoryTodaysCount="activeTodaysCount"
-            todaysCount={0}
+            // todaysCount={0}
             categoryTotalCount="activeTotalCount"
             totalCount={6}
             categoryUnderline="activeUnderline"
@@ -36,7 +36,7 @@ const Cards = () => {
             categoryHeading="recoveredheading"
             categoryTitle="RECOVERED"
             categoryTodaysCount="recoveredTodaysCount"
-            todaysCount={0}
+            // todaysCount={0}
             categoryTotalCount="recoveredTotalCount"
             totalCount={7}
             categoryUnderline="recoveredUnderline"
@@ -48,7 +48,7 @@ const Cards = () => {
             categoryHeading="deathsheading"
             categoryTitle="DECEASED"
             categoryTodaysCount="deathsTodaysCount"
-            todaysCount={1}
+            // todaysCount={1}
             categoryTotalCount="deathsTotalCount"
             totalCount={2}
             categoryUnderline="deathsUnderline"
