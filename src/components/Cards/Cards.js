@@ -14,7 +14,8 @@ const Cards = () => {
             categoryTodaysCount="confirmedTodaysCount"
             // todaysCount={15}
             categoryTotalCount="confirmedTotalCount"
-            totalCount={18}
+            //old count 16
+            totalCount={16}
             categoryUnderline="confirmedUnderline"
             borderColor="danger"
           />
@@ -26,7 +27,8 @@ const Cards = () => {
             categoryTodaysCount="activeTodaysCount"
             // todaysCount={0}
             categoryTotalCount="activeTotalCount"
-            totalCount={8}
+            //old count 6
+            totalCount={6}
             categoryUnderline="activeUnderline"
             borderColor="primary"
           />
