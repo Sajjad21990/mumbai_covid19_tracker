@@ -8,7 +8,6 @@ const CardConstant = (props) => {
   const {
     categoryHeading,
     categoryTitle,
-
     categoryTotalCount,
     totalCount,
     categoryUnderline,

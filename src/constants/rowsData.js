@@ -8,8 +8,8 @@ const rowData = [
   },
   {
     area_name: "Dongri",
-    total_cases: "4",
-    total_active: "0",
+    total_cases: "6",
+    total_active: "2",
     total_recovered: "3",
     total_deaths: "1",
   },
