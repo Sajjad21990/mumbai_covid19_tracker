@@ -25,15 +25,6 @@ const Main = () => {
         <div>
           <LightboxPage />
         </div>
-        <div className="row mt-5 ml-2 p-1">
-          <div className="col-lg-12">
-            <p>
-              <strong>Disclaimer: </strong>
-              The data is published for use within a closed group, no claim in
-              terms of accuracy and rights can be made on the hosting team.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );

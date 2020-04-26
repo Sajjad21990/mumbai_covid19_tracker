@@ -67,7 +67,7 @@ const TablePage = (props) => {
   return (
     <MDBCard className="ml-3 mr-3">
       <MDBCardHeader className="view view-cascade gradient-card-header purple-gradient d-flex justify-content-center align-items-center py-2 mx-4 mb-3">
-        <span className={styles.tableHeading}>Mumbai Area-Wise Data</span>
+        <span className={styles.tableHeading}>Maharashtra Area-Wise Data</span>
       </MDBCardHeader>
       <MDBCardBody cascade>
         {/* <MDBTable btn fixed striped searching={true} bordered>
@@ -86,6 +86,11 @@ const TablePage = (props) => {
         />
       </MDBCardBody>
       {/* {console.log(rowData[0].total_cases)} */}
+      <small className="ml-3 mb-2">
+        <strong>Disclaimer: </strong>
+        The data is published for use within a closed group, no claim in terms
+        of accuracy and rights can be made on the hosting team.
+      </small>
     </MDBCard>
   );
 };
