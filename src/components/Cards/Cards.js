@@ -3,7 +3,19 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import CardConstant from "../../constants/CardConstant";
 
+import rowsData from "../../constants/rowsData";
+
 const Cards = () => {
+  const cc = rowsData.map((data) => data.total_cases);
+  const ac = rowsData.map((data) => data.total_active);
+  const rc = rowsData.map((data) => data.total_recovered);
+  const dc = rowsData.map((data) => data.total_deaths);
+
+  const confirmed_count = cc.reduce((a, b) => a + b, 0);
+  const active_count = ac.reduce((a, b) => a + b, 0);
+  const recovered_count = rc.reduce((a, b) => a + b, 0);
+  const death_count = dc.reduce((a, b) => a + b, 0);
+
   return (
     <div className="container">
       <div className="row">
@@ -15,7 +27,7 @@ const Cards = () => {
             // todaysCount={15}
             categoryTotalCount="confirmedTotalCount"
             //old count 16
-            totalCount={16}
+            totalCount={confirmed_count}
             categoryUnderline="confirmedUnderline"
             borderColor="danger"
           />
@@ -28,7 +40,7 @@ const Cards = () => {
             // todaysCount={0}
             categoryTotalCount="activeTotalCount"
             //old count 6
-            totalCount={6}
+            totalCount={active_count}
             categoryUnderline="activeUnderline"
             borderColor="primary"
           />
@@ -40,7 +52,7 @@ const Cards = () => {
             categoryTodaysCount="recoveredTodaysCount"
             // todaysCount={0}
             categoryTotalCount="recoveredTotalCount"
-            totalCount={7}
+            totalCount={recovered_count}
             categoryUnderline="recoveredUnderline"
             borderColor="success"
           />
@@ -52,7 +64,7 @@ const Cards = () => {
             categoryTodaysCount="deathsTodaysCount"
             // todaysCount={1}
             categoryTotalCount="deathsTotalCount"
-            totalCount={2}
+            totalCount={death_count}
             categoryUnderline="deathsUnderline"
             borderColor="dark"
           />
