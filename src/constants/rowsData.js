@@ -62,7 +62,13 @@ const rowData = [
     total_recovered: 1,
     total_deaths: 0,
   },
-
+  {
+    area_name: "Mumbra",
+    total_cases: 1,
+    total_active: 1,
+    total_recovered: 0,
+    total_deaths: 0,
+  },
   // {
   //   area_name: "",
   //   total_cases: 0,
