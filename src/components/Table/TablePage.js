@@ -83,6 +83,7 @@ const TablePage = (props) => {
           responsiveSm
           barReverse
           noBottomColumns
+          entries={20}
         />
       </MDBCardBody>
       {/* {console.log(rowData[0].total_cases)} */}
