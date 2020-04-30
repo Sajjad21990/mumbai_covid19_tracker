@@ -36,8 +36,8 @@ const rowData = [
   },
   {
     area_name: "Pune",
-    total_cases: 6,
-    total_active: 6,
+    total_cases: 7,
+    total_active: 7,
     total_recovered: 0,
     total_deaths: 0,
   },
@@ -68,6 +68,13 @@ const rowData = [
     total_active: 0,
     total_recovered: 0,
     total_deaths: 1,
+  },
+  {
+    area_name: "Malagaon",
+    total_cases: 2,
+    total_active: 2,
+    total_recovered: 0,
+    total_deaths: 0,
   },
   // {
   //   area_name: "",
