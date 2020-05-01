@@ -34,7 +34,7 @@ const CardConstant = (props) => {
           style={{ fontSize: "22px", fontWeight: "bold" }}
           id={categoryUnderline}
         >
-          <CountUp start={0} end={totalCount} duration={2} separator="," />
+          <CountUp start={0} end={totalCount} duration={4} separator="," />
         </span>
       </Typography>
     </div>

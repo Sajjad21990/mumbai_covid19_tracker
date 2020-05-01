@@ -7,6 +7,13 @@ const rowData = [
     total_deaths: 1,
   },
   {
+    area_name: "Pune",
+    total_cases: 9,
+    total_active: 9,
+    total_recovered: 0,
+    total_deaths: 0,
+  },
+  {
     area_name: "Dongri",
     total_cases: 4,
     total_active: 0,
@@ -34,20 +41,7 @@ const rowData = [
     total_recovered: 0,
     total_deaths: 0,
   },
-  {
-    area_name: "Pune",
-    total_cases: 9,
-    total_active: 9,
-    total_recovered: 0,
-    total_deaths: 0,
-  },
-  {
-    area_name: "Sangli",
-    total_cases: 0,
-    total_active: 0,
-    total_recovered: 0,
-    total_deaths: 0,
-  },
+
   {
     area_name: "Wadala",
     total_cases: 1,
@@ -73,6 +67,13 @@ const rowData = [
     area_name: "Malegaon",
     total_cases: 2,
     total_active: 2,
+    total_recovered: 0,
+    total_deaths: 0,
+  },
+  {
+    area_name: "Sangli",
+    total_cases: 0,
+    total_active: 0,
     total_recovered: 0,
     total_deaths: 0,
   },
