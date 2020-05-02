@@ -87,6 +87,7 @@ const TablePage = (props) => {
         />
       </MDBCardBody>
       {/* {console.log(rowData[0].total_cases)} */}
+
       <small className="ml-3 mb-2">
         <strong>Disclaimer: </strong>
         The data is published for use within a closed group, no claim in terms
