@@ -47,7 +47,7 @@ const rowData = [
   {
     area_name: "Bandra",
     total_cases: 1,
-    total_active: 1,
+    total_active: 0,
     total_recovered: 1,
     total_deaths: 0,
   },
