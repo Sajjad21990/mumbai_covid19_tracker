@@ -8,9 +8,9 @@ const rowData = [
   },
   {
     area_name: "Pune",
-    total_cases: 11,
+    total_cases: 12,
     total_active: 11,
-    total_recovered: 0,
+    total_recovered: 1,
     total_deaths: 0,
   },
   {
