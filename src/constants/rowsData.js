@@ -68,8 +68,8 @@ const rowData = [
 
   {
     area_name: "Mumbra",
-    total_cases: 1,
-    total_active: 0,
+    total_cases: 2,
+    total_active: 1,
     total_recovered: 0,
     total_deaths: 1,
   },
