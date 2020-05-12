@@ -1,15 +1,15 @@
 const rowData = [
   {
     area_name: "South Mumbai",
-    total_cases: 23,
-    total_active: 17,
+    total_cases: 27,
+    total_active: 21,
     total_recovered: 3,
     total_deaths: 3,
   },
   {
     area_name: "Pune",
-    total_cases: 14,
-    total_active: 13,
+    total_cases: 18,
+    total_active: 17,
     total_recovered: 1,
     total_deaths: 0,
   },
@@ -23,9 +23,9 @@ const rowData = [
   {
     area_name: "Kurla",
     total_cases: 3,
-    total_active: 2,
+    total_active: 1,
     total_recovered: 1,
-    total_deaths: 0,
+    total_deaths: 1,
   },
 
   // {
@@ -75,9 +75,9 @@ const rowData = [
   },
   {
     area_name: "Malegaon",
-    total_cases: 2,
-    total_active: 1,
-    total_recovered: 1,
+    total_cases: 3,
+    total_active: 0,
+    total_recovered: 3,
     total_deaths: 0,
   },
   {
