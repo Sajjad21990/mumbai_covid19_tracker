@@ -1,8 +1,8 @@
 const rowData = [
   {
     area_name: "South Mumbai",
-    total_cases: 18,
-    total_active: 12,
+    total_cases: 23,
+    total_active: 17,
     total_recovered: 3,
     total_deaths: 3,
   },
