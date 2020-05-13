@@ -28,13 +28,13 @@ const rowData = [
     total_deaths: 1,
   },
 
-  // {
-  //   area_name: "Dongri",
-  //   total_cases: 6,
-  //   total_active: 1,
-  //   total_recovered: 3,
-  //   total_deaths: 2,
-  // },
+  {
+    area_name: "Dongri",
+    total_cases: 6,
+    total_active: 1,
+    total_recovered: 3,
+    total_deaths: 2,
+  },
   //                              COMBINED AND CHANGED TO SOUTH MUMBAI
   // {
   //   area_name: "Wadala",
