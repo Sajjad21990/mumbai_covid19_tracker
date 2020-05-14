@@ -12,6 +12,7 @@ import img3 from "../../images/3.jpeg";
 import img4 from "../../images/4.jpeg";
 import img5 from "../../images/5.jpeg";
 import img6 from "../../images/6.jpeg";
+import anfal from "../../images/anfal.jpg";
 
 const LightBoxPage = () => {
   const [toggler0, setToggler0] = useState(false);
@@ -25,7 +26,17 @@ const LightBoxPage = () => {
   return (
     <>
       <div className="container">
-        <h1 id="header_2">Helpline Numbers</h1>
+        <div className="container " style={{ textAlign: "center" }}>
+          <div className="row no-gutters">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 logo">
+              <img src={anfal} alt="anfal" className="logo-image" />
+            </div>
+            <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8 headers ">
+              <h1 id="header_2">Anfaal Foundation</h1>
+              <h4 id="header_3"> Covid-19 Team</h4>
+            </div>
+          </div>
+        </div>
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5 ">
             <img
@@ -46,7 +57,7 @@ const LightBoxPage = () => {
         </div>
       </div>
       <div className="container-fluid">
-        <h1 id="header_2">
+        <h1 id="header_2" style={{ textAlign: "center" }}>
           Rulings of Grand Ayt.Sistani Regarding Covid19 Burial
         </h1>
         <div className="row">

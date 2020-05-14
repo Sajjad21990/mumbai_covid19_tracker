@@ -6,16 +6,10 @@ import TablePage from "../components/Table/TablePage";
 
 import "../constants/Global.css";
 import LightboxPage from "../components/Gallery/LightBoxPage";
-import anfaalLogo from "../images/logo-anfaal.png";
 
 const Main = () => {
   return (
     <div>
-      <div className="row">
-        <div className="col-lg-12 logo">
-          <img src={anfaalLogo} alt="logo" className="logo-image" />
-        </div>
-      </div>
       <div className="row">
         <div className="col-lg-12">
           <h1 id="header">Shia Covid19 Tracker</h1>
