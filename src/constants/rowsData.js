@@ -29,8 +29,15 @@ const rowData = [
   },
   {
     area_name: "Ghatkopar",
-    total_cases: 2,
-    total_active: 2,
+    total_cases: 4,
+    total_active: 4,
+    total_recovered: 0,
+    total_deaths: 0,
+  },
+  {
+    area_name: "Vikhroli",
+    total_cases: 1,
+    total_active: 1,
     total_recovered: 0,
     total_deaths: 0,
   },
@@ -75,8 +82,8 @@ const rowData = [
 
   {
     area_name: "Mumbra",
-    total_cases: 2,
-    total_active: 1,
+    total_cases: 3,
+    total_active: 2,
     total_recovered: 0,
     total_deaths: 1,
   },
