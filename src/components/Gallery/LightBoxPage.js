@@ -12,7 +12,7 @@ import img3 from "../../images/3.jpeg";
 import img4 from "../../images/4.jpeg";
 import img5 from "../../images/5.jpeg";
 import img6 from "../../images/6.jpeg";
-import anfal from "../../images/anfal.jpg";
+import anfal from "../../images/logo.png";
 
 const LightBoxPage = () => {
   const [toggler0, setToggler0] = useState(false);
@@ -32,8 +32,7 @@ const LightBoxPage = () => {
               <img src={anfal} alt="anfal" className="logo-image" />
             </div>
             <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8 headers ">
-              <h1 id="header_2">Anfaal Foundation</h1>
-              <h4 id="header_3"> Covid-19 Team</h4>
+              <h1 id="header_3">Covid-19 Team</h1>
             </div>
           </div>
         </div>
