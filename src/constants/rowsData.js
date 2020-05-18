@@ -60,15 +60,15 @@ const rowData = [
 
   {
     area_name: "Bandra",
-    total_cases: 2,
+    total_cases: 3,
     total_active: 0,
     total_recovered: 1,
-    total_deaths: 1,
+    total_deaths: 2,
   },
   {
     area_name: "Andheri",
-    total_cases: 1,
-    total_active: 1,
+    total_cases: 2,
+    total_active: 2,
     total_recovered: 0,
     total_deaths: 0,
   },
