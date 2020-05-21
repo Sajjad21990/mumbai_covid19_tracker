@@ -22,8 +22,8 @@ const rowData = [
   },
   {
     area_name: "Kurla",
-    total_cases: 5,
-    total_active: 3,
+    total_cases: 6,
+    total_active: 4,
     total_recovered: 1,
     total_deaths: 1,
   },
