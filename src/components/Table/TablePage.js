@@ -89,6 +89,10 @@ const TablePage = (props) => {
       {/* {console.log(rowData[0].total_cases)} */}
 
       <small className="ml-3 mb-2">
+        <strong>
+          <span style={{ color: "red" }}>*</span> : Confirmation Pending
+        </strong>
+        <br />
         <strong>Disclaimer: </strong>
         The data is published for use within a closed group, no claim in terms
         of accuracy and rights can be made on the hosting team.

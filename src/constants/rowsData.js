@@ -7,7 +7,7 @@ const rowData = [
     total_deaths: 6,
   },
   {
-    area_name: "Pune",
+    area_name: "Pune *",
     total_cases: 27,
     total_active: 2,
     total_recovered: 25,
