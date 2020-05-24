@@ -3,6 +3,10 @@
   font-size: 2rem;
 }
 
+.lastUpdate {
+  color: #fff;
+}
+
 .columnHeading {
   font-size: 1rem;
   font-weight: bold;

@@ -66,7 +66,7 @@ const TablePage = (props) => {
 
   return (
     <MDBCard className="ml-3 mr-3">
-      <MDBCardHeader className="view view-cascade gradient-card-header purple-gradient d-flex justify-content-center align-items-center py-2 mx-4 mb-3">
+      <MDBCardHeader className="view view-cascade gradient-card-header purple-gradient d-flex justify-content-center  py-2 mx-4 mb-3">
         <span className={styles.tableHeading}>Maharashtra Area-Wise Data</span>
       </MDBCardHeader>
       <MDBCardBody cascade>
