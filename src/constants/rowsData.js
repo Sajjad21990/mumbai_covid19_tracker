@@ -22,8 +22,8 @@ const rowData = [
   },
   {
     area_name: "Mira-Bhayandar",
-    total_cases: 10,
-    total_active: 0,
+    total_cases: 11,
+    total_active: 1,
     total_recovered: 9,
     total_deaths: 1,
   },
