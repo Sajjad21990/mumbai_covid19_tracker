@@ -8,8 +8,8 @@ const rowData = [
   },
   {
     area_name: "Malad",
-    total_cases: 1,
-    total_active: 1,
+    total_cases: 2,
+    total_active: 2,
     total_recovered: 0,
     total_deaths: 0,
   },
@@ -23,9 +23,9 @@ const rowData = [
   {
     area_name: "Mira-Bhayandar",
     total_cases: 11,
-    total_active: 1,
+    total_active: 0,
     total_recovered: 9,
-    total_deaths: 1,
+    total_deaths: 2,
   },
   {
     area_name: "Kurla",
